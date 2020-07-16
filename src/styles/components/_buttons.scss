@@ -7,7 +7,7 @@
     cursor: pointer;
     font-size: 12px;
     padding: 7px 10px;
-
+    background-color:transparent;
     &:focus{
         outline: none;
     }
@@ -19,6 +19,7 @@
 .btn-primary{
     background-color: $primary;
     border-radius: 10px;
+
     &:disabled{
         background-color: lighten($color: $primary, $amount: 15);
     }
